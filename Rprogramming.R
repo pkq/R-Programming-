@@ -226,7 +226,7 @@ dim(tendulkar)
 
 head(tendulkar,10)
 
-# Do some base plitting
+# Do some base plotting
 plot(tendulkar$Runs,tendulkar$BF)
 #Add title and x and y labels
 plot(tendulkar$Runs,tendulkar$BF, pch=18, main="Tendulkar Runs scored vs Balls Faced",
